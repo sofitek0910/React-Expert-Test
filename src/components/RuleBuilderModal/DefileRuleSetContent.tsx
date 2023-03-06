@@ -62,7 +62,7 @@ const DefileRuleSetContent: FC<Props> = (props) => {
           onChange={setRuleName}
         />
       </Box>
-
+ 
       <Box className={classes.searchBox}>
 
         <Box className={classes.searchField}>

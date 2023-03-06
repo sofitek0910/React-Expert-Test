@@ -25,7 +25,7 @@ import { ExpressionItemType, RuleType } from 'typings';
 import styles from 'assets/jss/ruleBuilderModalStyles';
 
 const useStyles = makeStyles(styles);
-
+ 
 interface Props {
   open: boolean;
   handleClose: () => void;

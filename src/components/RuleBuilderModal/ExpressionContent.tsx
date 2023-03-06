@@ -15,7 +15,7 @@ const useStyles = makeStyles(styles);
 interface Props {
   expressions: ExpressionItemType[];
   setExpression: (val: ExpressionItemType) => void;
-}
+} 
 
 const ExpressionContent: FC<Props> = (props) => {
 
